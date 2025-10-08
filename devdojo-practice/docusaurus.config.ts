@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'DevDojo Practice',
-  tagline: '開発の練習と学習を記録するサイト',
+  title: 'DevDojo Document',
+  tagline: 'Dev道場をまとめるサイト',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -14,10 +14,10 @@ const config: Config = {
     v4: true, 
   },
 
-  url: 'https://ootomonaiso.github.io', 
+  url: 'https://YGMS-yukkuri.github.io',
   baseUrl: '/DevDojo_matome/', // 例: '/DevDojo_matome/'
   // GitHubPages用: GitHubユーザー名またはOrganization名
-  organizationName: '', // 例: 'ootomonaiso'
+  organizationName: 'YGMS-yukkuri', // 例: 'ootomonaiso'
   // GitHubPages用: リポジトリ名
   projectName: 'DevDojo_matome',
 
@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // GitHubPages用: 実際のリポジトリのeditURL
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/YGMS-yukkuri/DevDojo_matome/tree/main/devdojo-practice/',
             // 例: 'https://github.com/ootomonaiso/DevDojo_matome/tree/main/devdojo-practice/',
         },
         blog: {
@@ -52,7 +52,7 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           // GitHubPages用: 実際のリポジトリのeditURL
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/YGMS-yukkuri/DevDojo_matome/tree/main/devdojo-practice/',
             // 例: 'https://github.com/ootomonaiso/DevDojo_matome/tree/main/devdojo-practice/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
@@ -87,7 +87,7 @@ const config: Config = {
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           // GitHubリンク（実際のリポジトリURLに変更）
-          href: 'https://github.com/facebook/docusaurus', // 例: 'https://github.com/ootomonaiso/DevDojo_matome'
+          href: 'https://github.com/YGMS-yukkuri/DevDojo_matome', // 例: 'https://github.com/ootomonaiso/DevDojo_matome'
           label: 'GitHub',
           position: 'right',
         },
